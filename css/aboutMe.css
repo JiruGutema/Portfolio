@@ -1,9 +1,7 @@
 nav {
   background-color: #333333;
 }
-#about {
-  margin-top: 50px;
-}
+
 .education .right-box-pro {
   background: none !important;
   background-color: green;
@@ -25,18 +23,13 @@ nav {
 .profile {
   max-width: 400px;
 }
-.container .row {
-  margin-top: 100px 0 !important;
-}
+
 .aboutSkill,
 #about .container {
   border-left: 3px green dashed;
-
-  margin-top: 50px;
 }
 .aboutEducation {
   border-right: 3px rgb(9, 177, 228) dashed;
-  margin-top: 50px;
 }
 .wow {
   height: 100%;
@@ -58,4 +51,18 @@ nav {
 h3 {
   font-weight: bold;
   text-shadow: 1px 1px gray;
+}
+
+.top1 {
+  margin: 0 auto;
+  border-top: red 3px solid;
+  padding: 150px 10px !important;
+}
+#about {
+  padding-bottom: 0 !important;
+}
+#about .container {
+  padding: 20px;
+
+  overflow: hidden;
 }

@@ -6,13 +6,17 @@ footer {
   border-top: 2px solid gray;
   margin: 5px;
   padding-top: 10px;
+  margin-top: 50px;
   margin-bottom: 0;
   padding-bottom: 0;
+  background: none !important;
+}
+.footer {
+  padding: 30px 0 !important;
 }
 .workingWithUs {
   text-align: center;
   border-bottom: 1px solid white;
-  padding: 10px 0;
   margin: 0;
   font-weight: bold;
 }
@@ -65,7 +69,6 @@ footer {
   top: 0;
   bottom: 0;
   margin: 0;
-  padding: 10px 0;
 
   text-align: center;
 
@@ -80,7 +83,7 @@ footer {
 .footerMenuListing ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+
   padding: 0;
   margin: auto;
   font-size: 12px;
