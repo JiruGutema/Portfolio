@@ -1,12 +1,13 @@
 .aboutEducation {
-  border-right: 3px rgb(9, 177, 228) dashed;
+  border-right: 3px lightskyblue dashed;
 }
 
 .top1 {
   margin: 0 auto;
   margin-top: 100px;
-  border-top: red 3px solid;
+  border-top: lightsalmon 3px solid;
   padding: 150px 10px !important;
+  border-radius: 50px;
 }
 
 .container {
@@ -15,4 +16,7 @@
 }
 .top {
   margin-top: 150px;
+}
+body {
+  width: 99%;
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<head>
     <!-- Basic -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">   
@@ -15,7 +15,7 @@
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/image.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/iconsTitle.png" type="image/x-icon" />
 
 
     <!-- Bootstrap CSS -->
@@ -34,7 +34,7 @@
     <![endif]-->
  
 </head>
-<body id="page-top" class="politics_version" ">
+<body id="page-top" class="politics_version">
 
     <!-- LOADER -->
     <div id="preloader">
@@ -67,16 +67,15 @@
               <a class="nav-link js-scroll-trigger" href="./services.html">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="./portfolio.html">Projects</a>
+              <a class="nav-link js-scroll-trigger" href="./portfolio.html">Portfolio</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a>
-            </li> -->
-			<!-- <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
-            </li> -->
+           
 			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contect Me</a>
+              <a class="nav-link js-scroll-trigger" href="./contact.html">Contect Me</a>
+            </li>
+            
+            <li>
+                <button id="toggleButton">Dark Mode</button>
             </li>
           </ul>
         </div>
@@ -135,8 +134,8 @@
                         <p>My name is Jiru Gutema, and I was born on February 06, 2003 in Adama, Oromia, Ethiopia. You can reach me via Telegram at @Jethior or by email at Jethior@gmail.com. My phone number is +251978556748. I'm excited to share my journey and experiences with you through this portfolio.</p>
 
 						<p>I have expertise in a variety of technologies, including web development, Python, Java, networking, and Linux. I'm passionate about leveraging these skills to tackle complex challenges and create innovative solutions.</p>
-
-                      <a href="./about.html" class="sim-btn moreButton " data-text="More"><span>More</span></a></p>
+                            
+                      <a href="./about.html" class="sim-btn moreButton " data-text="More"><span>More Details</span></a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 
@@ -213,7 +212,9 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
                 </div>end col -->
-            </div><!-- end row -->
+                
+            </div>
+             <a href="./services.html" class="sim-btn moreButton" data-text="More"><span>More Details</span></a><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
 	
@@ -574,6 +575,7 @@
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
     <script src="js/jquery.vide.js"></script>
+    <script src="js/darkMode.js"></script>
 
 </body>
 </html>
