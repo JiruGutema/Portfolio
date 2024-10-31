@@ -847,6 +847,7 @@ xclip
 
 .testimonial {
   background-color: transparent;
+  display: block !important;
 }
 
 .testimonial h3 {
