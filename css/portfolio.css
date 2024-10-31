@@ -36,12 +36,10 @@ main > h1 {
   text-decoration: darkturquoise underline;
 }
 .completedProjects {
-  border-left: 3px green dashed;
   padding-bottom: 50px;
   border-top-left-radius: 20px;
 }
 .goingProjects {
-  border-left: red 3px dashed;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-top: dodgerblue 3px dashed;
